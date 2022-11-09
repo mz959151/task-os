@@ -1,0 +1,10 @@
+FROM  openjdk
+
+WORKID  /application
+
+COPY  Abdelkareem.java  .
+
+
+RUN  javac  Abdelkareem.java
+ 
+CMD java  Abdelkareem
